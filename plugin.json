@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-skill-routing",
+  "version": "1.0.0",
+  "description": "Select, compose, deconflict, and evaluate Agent Skills without loading the full catalog.",
+  "license": "MIT",
+  "author": { "name": "Codex Skills Maintainer" },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/skill-router/SKILL.md"
+    }
+  }
+}
+
